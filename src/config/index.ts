@@ -1,11 +1,9 @@
 import "dotenv/config";
 
 export default {
-  jwt: {
-    SECRET_KEY: process.env.SECRET_KEY_JWT || "sshhh",
-    TOKEN_EXPIRES_IN: process.env.TOKEN_EXPIRES_IN,
-  },
-  riot: {
-    API_URL: process.env.RIOT_API || "kek",
+  braintree: {
+    merchantId: process.env.BRAINTREE_MERCHANT_ID || "",
+    privateId: process.env.BRAINTREE_PRIVATE_ID || "",
+    publicID: process.env.BRAINTREE_PUBLIC_ID || "",
   },
 };
