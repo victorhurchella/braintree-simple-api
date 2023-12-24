@@ -1,5 +1,5 @@
 {
-  "name": "braintree-nodejs-api",
+  "name": "braintree-simple-api",
   "main": "src/index.ts",
   "version": "1.0.0",
   "license": "MIT",
